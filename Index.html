@@ -4,93 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida Adriana Arias</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+ 
+            <nav>
+                <!--<h3>Índice</h3>-->
+                <li><a href="#InformacionDeContacto"> Información de contacto </a> </li>
+                <li><a href="#Profesional"> Perfil profesional</a> </li>
+                <li><a href="#Educacion">Educación</a> </li>
+                <li><a href="#Cursos">Cursos</a> </li>
+                <li><a href="#Laboral">Experiencia Laboral</a> </li>
+                <li><a href="#Competencias">Competencias</a> </li>
+                <li><a href="#Contactame">Contactame</a> </li>
+            </nav>
+  
         <header>
             <h1 style="text-align: center"> Adriana Isabel Arias Andrade </h1>
             <h2 style="text-align: center"> <i>Ingeniera Industrial</i> </h2>
+                       
         </header>
 
-        <nav>
-            <h3>Índice</h3>
-            <li><a href="#InformacionDeContacto"> Información de contacto </a> </li>
-            <li><a href="#Profesional"> Perfil profesional</a> </li>
-            <li><a href="#Educacion">Educación</a> </li>
-            <li><a href="#Cursos">Cursos</a> </li>
-            <li><a href="#Laboral">Experiencia Laboral</a> </li>
-            <li><a href="#Competencias">Competencias</a> </li>
-            <li><a href="#Contactame">Contactame</a> </li>
-        </nav>
-
+        <!--Se desactiva para continuar con la hoja de vida
         <div class="Contect-area">
             <h3 style="text-align: center;">Bienvenido a mi hoja de vida</h3>
             <p style="text-align: center;">Conoce un poco de mi</p>
             <a href="#Contactame" class="boton"> Acceder al formulario de Registro</a>
-            <!--Necesito centrar esta parte-->
-        </div>
-
-        <hr color="red">
-        <img src="IMG_2373.JPG" alt="FOTO" width="15%" height="15%">
-
+           
+        </div> -->
+       
+        
         <section id="InformacionDeContacto">
-            <h3>Información de contacto</h3>
-            <p>Teléfono:+57 316 852 4963</p>
-            <p>Email: adriana.arias@hotmail.com</p>
-            <p>Ciudad: Cali, Colombia</p>
+
+            <div id="contenedorInformacion">
+                <h3>Información de contacto</h3>
+                <p>Teléfono:+57 316 852 4963</p>
+                <p>Email: adriana.arias@hotmail.com</p>
+                <p>LinkedIn: adriana-arias-andrade-09 </p>
+                <p>Ciudad: Cali, Colombia</p>
+            </div>
+            <!--Foto mia-->
+            <div id="contenedorFoto">
+                <img src="IMG_2373.JPG" alt="FOTO" class="foto-perfil">
+            </div>
+            
         </section>
 
         <section id="Profesional">
-            <hr> 
             <h2> Perfil profesional </h2>
             <p>Ingeniera industrial bilingüe con seis años de experiencia profesional en áreas financieras, de auditoría, de proyectos, de estrategia y gestión. Cuento con la capacidad para trabajar en equipo, demostrando responsabilidad y liderazgo. Me caracterizo por mi orientación a logros, comunicación asertiva, habilidad para resolver problemas, adaptabilidad y flexibilidad en los entornos dinámicos. Estoy siempre dispuesta a aprender y me esfuerzo por continuar con mi crecimiento personal y profesional.</p>
             <p> En mi trayectoria, he llevado a cabo auditorías de control interno al sistema de gestión para la detección y mitigación de riesgos, interpretación y elaboración de estados financieros, así como la elaboración de la estrategia y gestión de relacionamiento con aliados y socios. Además, tengo experiencia en análisis de datos utilizando Power BI y en la gestión y control de proyectos. Poseo sólidos conocimientos financieros y contables, así como habilidades en el manejo de herramientas como Excel, CG1 8.5, SAP, Project y Power BI. </p>
         </section>
 
         <section id="Educacion">
-            <br>
-            <hr>  
             <h2> Educación </h2>
-            <p><img src="https://www.univalle.edu.co/images/logos/logo-univalle-80-anhos-horizontal.png" alt="LogoUnivalle"> </p>
-            <p> <a href="https://www.univalle.edu.co/"> Universidad del Valle </a> </p> 
-            <!--Lista no ordenada-->
-            <ol type="I">
-                <li>Magister en Ingenieria - Noviembre 2024</li>
-                <li>Ingeniera Industrial - Agosto 2019</li>
-            </ol>
-            <br>
+            <div class="secciones">
+                <div class="logo">
+                <p><img src="https://www.univalle.edu.co/images/logos/logo-univalle-80-anhos-horizontal.png" alt="LogoUnivalle"> </p>
+                <p> <a href="https://www.univalle.edu.co/"> Universidad del Valle </a> </p> 
+                </div>
+                <!--Lista no ordenada-->
+                <div>
+                    <ol type="I">
+                        <li>Magister en Ingenieria - Noviembre 2024</li>
+                        <li>Ingeniera Industrial - Agosto 2019</li>
+                    </ol>
+                </div>
+            </div>
         </section>       
 
-        <section id="Cursos">
-            <hr>
-            <h3> Cursos </h3>
-            <p> <img src="LogoGeorgiaTech.png" alt="LogoGeorgiaTec>" width="15%" height="10%"> 
-            <a href="https://esl.gatech.edu/find-your-program/intensive-english-program">Language Institute </a>
-            Intensive English Program Levels 600 and 700 - Diciembre 2024 </p>
+        <section id="Cursos" >
+            <h2> Cursos </h2>
+            <br>
+        <div class="secciones"> 
+            <div class="logo">
+                <p> <img src="LogoGeorgiaTech.png" alt="LogoGeorgiaTec>" width="200px"></p>
+                <br> 
+                <a href="https://esl.gatech.edu/find-your-program/intensive-english-program">Language Institute </a>
+            </div>
+           
+            <div class="texto">
+                <p>Intensive English Program Levels 600 and 700 - Diciembre 2024 </p>
+            </div>
+        </div>
         </section>
 
         <section id="Laboral">
-                <br>
-                <hr>
+               
                 <h2> Experiencia Laboral </h2>
+                <div class="secciones">
+                    <div class="logo">
+                        <img src="https://www.ecopetrol.com.co/wps/contenthandler/dav/themelist/eco-tema-principal1/images/EcopetrolLogoFooter.svg" alt="LogoEcopetrol" width="200px">
+                        <p> <a href="https://www.ecopetrol.com.co/wps/portal/"> Ecopetrol </a> </p> 
+                    </div>
+                    <div class="texto">
+                        <dl>
+                        <dt><b>Profesional de Proyectos</b></dt>  
+                            <dd>Líder en el relacionamiento de aliados y grupos de interés. Aseguramiento, seguimiento, análisis y control de información. Planeación y ejecución de espacios que promuevan el acercamiento de las compañías operadoras y aliadas.</dd>
+                        </dl>
+                    </div>
+                </div>
+ 
+                <div class="secciones">
+                    <br>
+                    <div class="logo">
+                        <img src="TrapicheLucernaLogo.png" alt="LogoTrapiche" width="200px">
+                    </div>
+                    <div class="texto">
+                        <dl>
+                        <dt> <b>Auditora General</b></dt> 
+                            <dd>Establecer y ejecutar el proceso de auditoria interno de diferentes departamentos, identificando oportunidades de mejora y optimización en los procesos. Apoyo a la gerencia con la elaboración de los estados financieros, pago a los contratistas y seguimiento de sus labores.</dd>
+                        </dl>
+                    </div>
+                </div>
 
-                <img src="https://www.ecopetrol.com.co/wps/contenthandler/dav/themelist/eco-tema-principal1/images/EcopetrolLogoFooter.svg" alt="LogoEcopetrol" width="15%">
-                <p> <a href="https://www.ecopetrol.com.co/wps/portal/"> Ecopetrol </a> </p> 
-                <dl>
-                <dt><b>Profesional de Proyectos</b></dt>  
-                    <dd>Líder en el relacionamiento de aliados y grupos de interés. Aseguramiento, seguimiento, análisis y control de información. Planeación y ejecución de espacios que promuevan el acercamiento de las compañías operadoras y aliadas.</dd>
-           
-            
-                <br>
-                <img src="TrapicheLucernaLogo.png" alt="LogoTrapiche" width="15%">
-                
-                <dt> <b>Auditora General</b></dt> 
-                    <dd>Establecer y ejecutar el proceso de auditoria interno de diferentes departamentos, identificando oportunidades de mejora y optimización en los procesos. Apoyo a la gerencia con la elaboración de los estados financieros, pago a los contratistas y seguimiento de sus labores.</dd>
-                </dl>
         </section>
-
+   
              <section id="Competencias">
-                <hr> <!--Esto es para hacer la linea separadora-->
-                <h3> Competencias </h3>
+                <!--<hr> Esto es para hacer la linea separadora-->
+                <h2> Competencias </h2>
                 <ul type="square">
                     <li><b>Blandas:</b> Adaptabilidad, organización, trabajo en equipo, toma de decisiones, cumplimiento de metas, liderazgo.</li>
                     <li><b>Manejo de software:</b> Programas de ofimática, CGUNO, Siesa Enterprise, SPSS Statistics, Project, Power Bi, SAP.</li>
@@ -119,8 +152,8 @@
                 </ul>
             </section>
 
-            <section id="Contactame">
-                <hr>
+            <section id="Contactame" style="text-align: center;">
+                               
                 <h3> Contactame </h3>
 
                 <form action="#" method="post"> <!--Aqui indico como se va a conectar el archivo, POST es para guardar informacion  y GET es para traer informacion de algun lado-->
